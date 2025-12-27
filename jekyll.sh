@@ -1,12 +1,15 @@
 
 docker run --rm -it \
-  --volume="./:/srv/jekyll:Z" \
-  jekyll/jekyll:3.8 \
-  jekyll new statelis
+  --volume="./:/cwd" \
+  --workdir=/cwd \
+  ruby:trixie \
+  bash
 
-docker run --rm -it \
-  --volume="./:/srv/jekyll:Z" \
-  jekyll/jekyll:3.8 \
-  jekyll build
+apt update
+apt install -y build-essential zlib1g-dev
+gem install jekyll bundler
+
+jekyll new --force ./
+jekyll build ./
   
   
