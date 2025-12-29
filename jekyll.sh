@@ -1,7 +1,7 @@
 
 docker build -t jekyll ./
 
-docker run --rm -it -v "./:/cwd" -p "4000:4000" \
+docker run --rm -it -v "./:/cwd" -p "13000:4000" \
   jekyll \
   bash
 

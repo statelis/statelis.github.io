@@ -1,6 +1,11 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: page
+title: Statelis
 ---
+
+# Statelis
+
+[AI]({{ site.baseurl }}/assets/images/ai_data_integration.png)
+
+AI Powered Data Integration for Bioinformatics.
+
