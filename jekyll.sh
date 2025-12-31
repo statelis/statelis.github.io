@@ -1,7 +1,7 @@
 
 docker build -t jekyll ./
 
-docker run --rm -it -v "./:/cwd" -p "13000:4000" \
+docker run --rm -it -v "./:/cwd" -p "4000:4000" \
   jekyll \
   bash
 
@@ -14,7 +14,9 @@ bundle add webrick logger
 # display
 cd docs
 bundle install
-bundle exec jekyll serve
+jekyll serve --host 0.0.0.0 --port 4000
+
+
 
 
   

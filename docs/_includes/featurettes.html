@@ -1,0 +1,36 @@
+
+
+{% assign featurette_title    = include.title    | default: "Featurette Heading." %}
+{% assign featurette_subtitle = include.subtitle | default: "It'll blow your mind." %}
+{% assign featurette_content  = include.content  | default: "Some great placeholder content for the first featurette here. Imagine some exciting prose here." %}
+{% assign featurette_image    = include.image    | default: "" %}
+{% assign featurette_side     = include.side     | default: "left" %}
+
+
+<hr class="featurette-divider">
+
+{% if featurette_side=="left" %}
+	<div class="row featurette">
+	  <div class="col-md-7">
+	    <h2 class="featurette-heading fw-normal lh-1">{{ featurette_title }}<span class="text-body-secondary">{{ featurette_subtitle }}</span></h2>
+	    <p class="lead">{{ featurette_content }}</p>
+	  </div>
+	  <div class="col-md-5">
+	    <img width="500" height="500" href="{{ featurette_image }}" style="background:var(--bs-secondary-bg);color:var(--bs-secondary-color)" class="bd-placeholder-img-lg featurette-image img-fluid mx-auto" />
+	  </div>
+	</div>
+{% else %}
+	<div class="row featurette">
+	  <div class="col-md-7 order-md-2">
+	    <h2 class="featurette-heading fw-normal lh-1">{{ featurette_title }}<span class="text-body-secondary">{{ featurette_subtitle }}</span></h2>
+	    <p class="lead">{{ featurette_content }}</p>
+	  </div>
+	  <div class="col-md-5 order-md-1">
+	    <img width="500" height="500" href="{{ featurette_image }}" style="background:var(--bs-secondary-bg);color:var(--bs-secondary-color)" class="bd-placeholder-img-lg featurette-image img-fluid mx-auto" />
+	  </div>
+	</div>
+{% endif %}
+
+
+
+

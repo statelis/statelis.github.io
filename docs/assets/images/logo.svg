@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88.66 32.03">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+        font-family: PlantagenetCherokee, 'Plantagenet Cherokee';
+        font-size: 24px;
+      }
+
+      .cls-2 {
+        fill: #010101;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(12.8 24.47)"><tspan x="0" y="0">Statelis</tspan></text>
+  <path class="cls-2" d="M18.39,0l1.39,4.13-2.25.88-1.39-4.13,2.25-.88ZM1.24,11.45l.63-2.33,9.05,2.79-.63,2.33L1.24,11.45ZM4.73,4.64l7.62,4.59-1.16,2.11L3.57,6.75l1.16-2.12h0ZM8.91,1.22l5.49,5.74-1.66,1.75L7.25,2.97l1.66-1.75ZM13.91.05l3.07,5.16-2.02,1.33-3.07-5.16L13.91.05Z"/>
+  <rect class="cls-2" x=".43" y="13.31" width="2.49" height="2.49" transform="translate(2.51 -.07) rotate(9.84)"/>
+  <rect class="cls-2" x="4" y="13.91" width="2.49" height="2.49" transform="translate(2.67 -.67) rotate(9.84)"/>
+  <rect class="cls-2" x="7.42" y="14.51" width="2.49" height="2.49" transform="translate(2.82 -1.25) rotate(9.84)"/>
+  <rect class="cls-2" y="17.77" width="2.49" height="2.49"/>
+  <rect class="cls-2" x="3.63" y="17.77" width="2.49" height="2.49"/>
+  <rect class="cls-2" x="7.14" y="17.77" width="2.49" height="2.49"/>
+</svg>
